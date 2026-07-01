@@ -1,13 +1,183 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Visentin Tech Services</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Visentin Tech Services</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI,Arial,sans-serif;
+}
+
+body{
+    background:#0b0f19;
+    color:white;
+}
+
+header{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+    background:linear-gradient(135deg,#0b0f19,#152238);
+}
+
+.logo{
+    font-size:48px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+.subtitle{
+    font-size:24px;
+    color:#b0b8d1;
+    margin-bottom:30px;
+}
+
+.button{
+    background:white;
+    color:black;
+    padding:15px 35px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+section{
+    max-width:1200px;
+    margin:auto;
+    padding:80px 20px;
+}
+
+h2{
+    font-size:36px;
+    margin-bottom:40px;
+    text-align:center;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#1a2235;
+    padding:30px;
+    border-radius:15px;
+}
+
+.card h3{
+    margin-bottom:15px;
+    font-size:22px;
+}
+
+.card p{
+    color:#c0c7dc;
+}
+
+footer{
+    background:#111827;
+    text-align:center;
+    padding:40px;
+    color:#999;
+}
+</style>
 </head>
+
 <body>
-    <h1>Visentin Tech Services</h1>
-    <h2>AI, Automazione e Servizi Digitali</h2>
-    <p>Benvenuto nel mio portfolio professionale.</p>
+
+<header>
+    <div class="logo">VISENTIN TECH SERVICES</div>
+
+    <div class="subtitle">
+        AI • Automazione • Soluzioni Digitali
+    </div>
+
+    <a class="button" href="mailto:info@visentintech.com">
+        Contattami
+    </a>
+</header>
+
+<section>
+    <h2>I miei servizi</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🤖 Chatbot AI</h3>
+            <p>
+                Creo chatbot intelligenti per aziende,
+                professionisti e attività locali.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>⚙️ Automazioni</h3>
+            <p>
+                Automatizzo attività ripetitive per
+                risparmiare tempo e denaro.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🌐 Siti Web</h3>
+            <p>
+                Realizzo siti professionali moderni
+                e ottimizzati.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>📊 AI Tools</h3>
+            <p>
+                Creo strumenti personalizzati
+                basati sull'intelligenza artificiale.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2>Portfolio</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Chatbot Ristorante</h3>
+            <p>
+                Assistente virtuale per prenotazioni e clienti.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Automazione Excel</h3>
+            <p>
+                Sistema automatico di reportistica.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Landing Page Aziendale</h3>
+            <p>
+                Sito professionale per attività locali.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    © 2026 Visentin Tech Services
+</footer>
+
 </body>
 </html>
